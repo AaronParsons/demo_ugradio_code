@@ -8,3 +8,4 @@ data = sdr.capture_data()
 filename = sys.argv[-1]
 print(f'Writing to {filename}')
 np.savez(filename, data=data)
+print('Done')
